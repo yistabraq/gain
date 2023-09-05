@@ -20,10 +20,10 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/pawelgaczynski/gain/logger"
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
-	"github.com/pawelgaczynski/gain/pkg/queue"
 	"github.com/pawelgaczynski/giouring"
+	"github.com/yistabraq/gain/logger"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/queue"
 )
 
 type consumerConfig struct {

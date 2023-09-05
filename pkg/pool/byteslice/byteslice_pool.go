@@ -22,7 +22,7 @@ import (
 	"runtime"
 	"unsafe"
 
-	"github.com/pawelgaczynski/gain/pkg/pool/sync"
+	"github.com/yistabraq/gain/pkg/pool/sync"
 )
 
 var builtinPool = NewByteSlicePool()

@@ -20,7 +20,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	bsPool "github.com/pawelgaczynski/gain/pkg/pool/byteslice"
+	bsPool "github.com/yistabraq/gain/pkg/pool/byteslice"
 )
 
 var ipv4InIPv6Prefix = []byte{0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xff, 0xff}

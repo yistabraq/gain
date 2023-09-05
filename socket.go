@@ -20,9 +20,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
-	"github.com/pawelgaczynski/gain/pkg/socket"
+	"github.com/yistabraq/gain/pkg/errors"
+	gainNet "github.com/yistabraq/gain/pkg/net"
+	"github.com/yistabraq/gain/pkg/socket"
 )
 
 func parseProtoAddr(addr string) (string, string) {

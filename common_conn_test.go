@@ -26,8 +26,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pawelgaczynski/gain"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain"
 )
 
 type connServerTester struct {

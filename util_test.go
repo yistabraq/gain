@@ -23,8 +23,8 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/pawelgaczynski/gain"
 	"github.com/rs/zerolog"
+	"github.com/yistabraq/gain"
 )
 
 var testLoggerLevel = os.Getenv("TEST_LOGGER_LEVEL")

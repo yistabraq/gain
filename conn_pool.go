@@ -15,8 +15,8 @@
 package gain
 
 import (
-	"github.com/pawelgaczynski/gain/pkg/pool/ringbuffer"
-	"github.com/pawelgaczynski/gain/pkg/pool/sync"
+	"github.com/yistabraq/gain/pkg/pool/ringbuffer"
+	"github.com/yistabraq/gain/pkg/pool/sync"
 )
 
 var builtinConnectionPool = newConnectionPool()

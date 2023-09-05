@@ -19,9 +19,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
-	"github.com/pawelgaczynski/gain/pkg/socket"
 	"github.com/pawelgaczynski/giouring"
+	"github.com/yistabraq/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/socket"
 )
 
 type acceptor struct {

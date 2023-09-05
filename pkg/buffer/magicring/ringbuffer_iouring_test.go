@@ -24,9 +24,9 @@ import (
 	"time"
 	"unsafe"
 
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
 	"github.com/pawelgaczynski/giouring"
 	. "github.com/stretchr/testify/require"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 	"golang.org/x/sys/unix"
 )
 

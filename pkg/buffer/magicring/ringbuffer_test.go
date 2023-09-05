@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain/pkg/errors"
 )
 
 func BenchmarkMagicRingBufferWrite(b *testing.B) {

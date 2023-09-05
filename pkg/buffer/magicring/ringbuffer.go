@@ -27,8 +27,8 @@ import (
 	"os"
 	"unsafe"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
-	"github.com/pawelgaczynski/gain/pkg/pool/virtualmem"
+	"github.com/yistabraq/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/pool/virtualmem"
 )
 
 var (

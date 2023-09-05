@@ -8,9 +8,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pawelgaczynski/gain"
-	"github.com/pawelgaczynski/gain/logger"
 	"github.com/rs/zerolog"
+	"github.com/yistabraq/gain"
+	"github.com/yistabraq/gain/logger"
 )
 
 const (

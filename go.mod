@@ -1,4 +1,4 @@
-module github.com/pawelgaczynski/gain
+module github.com/yistabraq/gain
 
 go 1.20
 

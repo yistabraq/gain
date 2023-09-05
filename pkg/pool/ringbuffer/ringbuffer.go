@@ -22,8 +22,8 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/pawelgaczynski/gain/pkg/buffer/magicring"
-	"github.com/pawelgaczynski/gain/pkg/pool/sync"
+	"github.com/yistabraq/gain/pkg/buffer/magicring"
+	"github.com/yistabraq/gain/pkg/pool/sync"
 )
 
 const (

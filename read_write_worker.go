@@ -20,9 +20,9 @@ import (
 	"net"
 
 	"github.com/alitto/pond"
-	"github.com/pawelgaczynski/gain/pkg/queue"
 	"github.com/pawelgaczynski/giouring"
 	"github.com/rs/zerolog"
+	"github.com/yistabraq/gain/pkg/queue"
 )
 
 type readWriteWorker interface {

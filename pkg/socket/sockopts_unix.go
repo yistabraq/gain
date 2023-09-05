@@ -18,7 +18,7 @@ package socket
 import (
 	"os"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/errors"
 	"golang.org/x/sys/unix"
 )
 

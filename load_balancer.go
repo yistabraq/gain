@@ -18,7 +18,7 @@ import (
 	"hash/crc32"
 	"net"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/errors"
 )
 
 type LoadBalancing int

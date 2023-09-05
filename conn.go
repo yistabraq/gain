@@ -22,11 +22,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/pawelgaczynski/gain/pkg/buffer/magicring"
-	"github.com/pawelgaczynski/gain/pkg/errors"
-	"github.com/pawelgaczynski/gain/pkg/pool/byteslice"
-	"github.com/pawelgaczynski/gain/pkg/pool/ringbuffer"
-	"github.com/pawelgaczynski/gain/pkg/socket"
+	"github.com/yistabraq/gain/pkg/buffer/magicring"
+	"github.com/yistabraq/gain/pkg/errors"
+	"github.com/yistabraq/gain/pkg/pool/byteslice"
+	"github.com/yistabraq/gain/pkg/pool/ringbuffer"
+	"github.com/yistabraq/gain/pkg/socket"
 )
 
 type connectionState int

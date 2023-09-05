@@ -17,7 +17,7 @@ package virtualmem
 import (
 	"math/bits"
 
-	"github.com/pawelgaczynski/gain/pkg/pool/sync"
+	"github.com/yistabraq/gain/pkg/pool/sync"
 )
 
 const (

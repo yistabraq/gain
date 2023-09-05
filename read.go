@@ -15,8 +15,8 @@
 package gain
 
 import (
-	"github.com/pawelgaczynski/gain/pkg/errors"
 	"github.com/pawelgaczynski/giouring"
+	"github.com/yistabraq/gain/pkg/errors"
 )
 
 type reader struct {

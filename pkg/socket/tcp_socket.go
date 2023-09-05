@@ -22,8 +22,8 @@ import (
 	"net"
 	"os"
 
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 	"golang.org/x/sys/unix"
 )
 

@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pawelgaczynski/gain"
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 )
 
 const (

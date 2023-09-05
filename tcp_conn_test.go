@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pawelgaczynski/gain"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 )
 
 func testConnectionHandling(t *testing.T, architecture gain.ServerArchitecture) {

@@ -17,7 +17,7 @@ package gain
 import (
 	"sync/atomic"
 
-	"github.com/pawelgaczynski/gain/pkg/stack"
+	"github.com/yistabraq/gain/pkg/stack"
 )
 
 const firstFreeKey = 2

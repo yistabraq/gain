@@ -20,8 +20,8 @@ import (
 	"syscall"
 	"time"
 
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
 	"github.com/pawelgaczynski/giouring"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
 )
 
 var waitForArray = []uint32{

@@ -21,8 +21,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
+	"github.com/yistabraq/gain/pkg/errors"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 	"golang.org/x/sys/unix"
 )
 

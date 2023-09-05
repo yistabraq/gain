@@ -19,8 +19,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/pawelgaczynski/gain/pkg/buffer/magicring"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain/pkg/buffer/magicring"
 )
 
 func TestIndexRingBufferPool(t *testing.T) {

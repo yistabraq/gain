@@ -18,8 +18,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
 	. "github.com/stretchr/testify/require"
+	"github.com/yistabraq/gain/pkg/errors"
 )
 
 const numberOfTestWorkers = 4

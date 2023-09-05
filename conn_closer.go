@@ -18,9 +18,9 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/pawelgaczynski/gain/pkg/errors"
 	"github.com/pawelgaczynski/giouring"
 	"github.com/rs/zerolog"
+	"github.com/yistabraq/gain/pkg/errors"
 )
 
 type connCloser struct {

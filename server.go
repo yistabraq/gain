@@ -23,11 +23,11 @@ import (
 	"sync/atomic"
 	"syscall"
 
-	"github.com/pawelgaczynski/gain/logger"
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
 	"github.com/pawelgaczynski/giouring"
 	"github.com/rs/zerolog"
+	"github.com/yistabraq/gain/logger"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 )
 
 const (

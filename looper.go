@@ -18,8 +18,8 @@ import (
 	"errors"
 	"runtime"
 
-	gainErrors "github.com/pawelgaczynski/gain/pkg/errors"
 	"github.com/pawelgaczynski/giouring"
+	gainErrors "github.com/yistabraq/gain/pkg/errors"
 )
 
 type eventProcessor func(*giouring.CompletionQueueEvent) error

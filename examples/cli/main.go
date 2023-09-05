@@ -12,10 +12,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pawelgaczynski/gain"
-	gainNet "github.com/pawelgaczynski/gain/pkg/net"
 	"github.com/rs/zerolog"
 	"github.com/urfave/cli/v2"
+	"github.com/yistabraq/gain"
+	gainNet "github.com/yistabraq/gain/pkg/net"
 )
 
 const (
