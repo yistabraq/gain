@@ -238,7 +238,7 @@ func (w *shardWorker) loop(fd int) error {
 }
 
 func (w *shardWorker) closeAllConnsAndRings() {
-	w.logWarn().Msg("Closing connections")
+	//w.logWarn().Msg("Closing connections")
 	w.accepting.Store(false)
 	_ = w.syscallCloseSocket(w.fd)
 	w.connectionManager.close(func(conn *connection) bool {
