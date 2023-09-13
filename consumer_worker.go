@@ -60,7 +60,7 @@ func (c *consumerWorker) addConnToQueue(fd int) error {
 }
 
 func (c *consumerWorker) closeAllConns() {
-	c.logWarn().Msg("Closing connections")
+	//c.logWarn().Msg("Closing connections")
 	c.connectionManager.close(func(conn *connection) bool {
 		err := c.addCloseConnRequest(conn)
 		if err != nil {
